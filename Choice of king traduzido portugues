@@ -1,0 +1,78 @@
+*comment Copyright 2010 by Dan Fabulich.
+*comment 
+*comment Dan Fabulich licenses this file to you under the
+*comment ChoiceScript License, Version 1.0 (the "License"); you may
+*comment not use this file except in compliance with the License. 
+*comment You may obtain a copy of the License at
+*comment 
+*comment  http://www.choiceofgames.com/LICENSE-1.0.txt
+*comment 
+*comment See the License for the specific language governing
+*comment permissions and limitations under the License.
+*comment 
+*comment Unless required by applicable law or agreed to in writing,
+*comment software distributed under the License is distributed on an
+*comment "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+*comment either express or implied.
+
+*title My First ChoiceScript Game
+*author Victor Alves
+*scene_list
+  startup
+
+
+Welcome to your very first ChoiceScript game!
+
+Copyright 2010 by Dan Fabulich.
+
+Dan Fabulich licenses this file to you under the
+ChoiceScript License, Version 1.0 (the "License"); you may
+not use this file except in compliance with the License. 
+You may obtain a copy of the License at
+
+*link http://www.choiceofgames.com/LICENSE-1.0.txt
+
+See the License for the specific language governing
+permissions and limitations under the License.
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+either express or implied.
+
+*page_break Clique aquí Isis Amor!
+
+Majestade! o POVO PASSA FOME NAS RUAS, e ameaça revoltar.
+Nossos inimigos no ocidente são fracos, mas ameaçan invadir-nos em breve. Que ireis fazer?
+
+*choice
+  #Faça guerra preventiva contra os ocidentais.
+    Se puderes dominar o território deles, vosso reino florescerá.  Mas a moral de vosso exercito é baixa
+    e a guarnição do reino está vazia.  Como vencereis a guerra?
+    *choice
+      #Forçe os camponeses como se fossem escravos; Se trabalharmos duro, venceremos.
+        Infelismente, a moral não funciona desse jeito. Teu exercito volta-se contra Ti.
+        E o reino cai para os barbaros ocidentais.
+        *finish
+      #Aponte cavaleiros carísmáticos e dê lhes Terra, vassalos e recursos.
+        O povo de Vossa Majestade é eminentemente recursivo, Vossos Cavaleiros Ganham o dia!
+        Mas tome coidado: Eles em breve demandarão uma convenção no Parlamento!
+        *finish
+      #Roube comida e armas do inimigo na calada na noite.
+        Um plano sagaz.  Breve vosso exercito é pareo para os ocidentais; Eles ecolhem
+        não invadir...  Por agora.  Por quanto tempo vossa majestade pode evitar o inevitável?
+        *finish
+  #Negocie tropas mercenárias, arados e comércio de alimentos com os ocidentais para a proteção.
+    Os Barbaros o tem na ponta da espada! Eles negociam termos abusivos de Vós.
+    *choice
+      #Aceite os termos por agora.
+        Eventualmente, os Barbaros conquistam o Reino de uma forma ou de outra, destruindo o próprio ganha-pão
+        e toda a região passa fome.
+        *finish
+      #Ameace salgar os campos se eles não ofereçerem termos decentes!
+        Eles esitam.  Majestade, consegumos um bom preço para o trigo!
+        *finish
+  #Abdicar ao trono. Obviamente eu não sei administrar esse Reino!
+    O Reino declina rumo ao caos, Com sorte Você consegue escapar com seu couro intacto.
+    Talves, algum dia, você retorne para restaurar a ordem nesta bela pátria. 
+   *finish
